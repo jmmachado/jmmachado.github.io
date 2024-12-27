@@ -1,7 +1,7 @@
 ---
 title: "The Total Variation-Wasserstein Problem:A New Derivation of the Euler-Lagrange Equations"
 collection: publications
-category: published
+category: manuscripts
 permalink: /publication/GSI23
 excerpt: 'In this paper we propose an alternative derivation of the Euler-Lagrange equations of the Total Variation-Wasserstein problem that implies higher (Lipschitz) regularity for the involved quantities. In addition we propose a proximal splitting algorithm for its numerical optimization.'
 date: 2023-08-01
