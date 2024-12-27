@@ -3,7 +3,7 @@ title: "One-dimensional approximation of measures in Wasserstein distance. [Publ
 collection: publications
 category: manuscripts
 permalink: /publication/one_dimensional
-excerpt: #''
+excerpt: 
 date: 2024-12-17
 venue: 'Journal de Ecole Polytechnique'
 slidesurl:
