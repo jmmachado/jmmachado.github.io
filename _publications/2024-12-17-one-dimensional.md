@@ -10,7 +10,6 @@ venue: 'Journal de l'École Polytechnique'
 slidesurl:
 paperurl: 'http://jmmachado.github.io/files/JEP_2025__12__101_0.pdf'
 citation: 'Antonin Chambolle, Vincent Duval and João Miguel Machado.  &quot;<i>One-dimensional approximation of measures in Wasserstein distance.&quot; Journal de l’École polytechnique — Mathématiques, Volume 12 (2025), pp. 101-145</i>.'
-
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
