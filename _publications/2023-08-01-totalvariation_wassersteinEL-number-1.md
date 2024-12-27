@@ -9,5 +9,5 @@ date: 2023-08-01
 venue: 'Geometric Science of Information. GSI 2023'
 slidesurl: 
 paperurl: 'http://jmmachado.github.io/files/TV-W_GSI23.pdf'
-citation: 'Chambolle, A., Duval, V., Machado, J.M. (2023). &quot;The Total Variation-Wasserstein Problem: A New Derivation of the Euler-Lagrange Equations. In&quot; <i>Nielsen, F., Barbaresco, F. (eds) Geometric Science of Information. GSI 2023. Lecture Notes in Computer Science, vol 14071. Springer</i>.'
+citation: #'Chambolle, A., Duval, V., Machado, J.M. (2023). &quot;The Total Variation-Wasserstein Problem: A New Derivation of the Euler-Lagrange Equations. In&quot; <i>Nielsen, F., Barbaresco, F. (eds) Geometric Science of Information. GSI 2023. Lecture Notes in Computer Science, vol 14071. Springer</i>.'
 ---
