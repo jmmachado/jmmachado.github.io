@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "Paris, FR"
-title                    : "J.M.Machado"
+title                    : "J.M.Machado / Site Title"
 title_separator          : "-"
 name                     : &name "J.M. Machado"
 description              : &description "personal description"
