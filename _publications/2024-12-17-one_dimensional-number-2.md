@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-12-17-one_dimensional-number-2
 excerpt: 'In this paper we propose an approach to approximate an arbitrary probability measure with 1-dimensional structures. This is achieved by means of a new variational problem consisting of the minimization of the Wasserstein distance of this given measure to all probability measures uniformly distributed over connected 1-rectifiable sets plus a term penalizing the total length of its support.'
-date: 2024-12-17
+date: 2024-17-12
 venue: 'Journal de l'École Polytechnique'
 slidesurl:
 paperurl: 'http://jmmachado.github.io/files/JEP_2025__12__101_0.pdf'
