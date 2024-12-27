@@ -50,10 +50,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  preprint:
-    title: 'Pre-prints'
   manuscripts:
     title: 'Journal Articles'  
+  preprint:
+    title: 'Pre-prints'
   books:
     title: 'Books'
   conferences:
@@ -63,7 +63,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -82,7 +82,7 @@ staticman:
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : true
+  moderation             : false
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
@@ -106,7 +106,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -178,7 +178,7 @@ incremental: false
 kramdown:
   input: GFM
   hard_wrap: false
-  auto_ids: true
+  auto_ids: false
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
