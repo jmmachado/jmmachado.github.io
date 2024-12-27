@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile_photo.jpeg"
-  name             : "Your Sidebar Name"
+  name             : "João Miguel Machado"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Mathematics, Calculus of Variations, Geometric Measure Theory, Optimal Transport"
   location         : "Paris,FR"
-  employer         : "Lagrange Mathematical and Computational Research Center"
+  employer         : "Lagrange Center"
   uri              : # URL
   email            : "joao-miguel.machado@ceremade.dauphine.fr" 
 
