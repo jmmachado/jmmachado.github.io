@@ -3,7 +3,7 @@ title: "One-dimensional approximation of measures in Wasserstein distance
 "
 collection: publications
 category: manuscripts
-permalink: /publication/2024-12-17-one-dimensional
+permalink: /publication/2024-12-17-one-dimensional.md
 excerpt: 'In this paper we propose an approach to approximate an arbitrary probability measure with 1-dimensional structures. This is achieved by means of a new variational problem consisting of the minimization of the Wasserstein distance of this given measure to all probability measures uniformly distributed over connected 1-rectifiable sets plus a term penalizing the total length of its support.'
 date: 2024-12-17
 venue: 'Journal de l'École Polytechnique'
