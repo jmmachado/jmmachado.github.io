@@ -9,7 +9,7 @@ date: 2024-12-17
 venue: 'Journal de l'École Polytechnique'
 slidesurl:
 paperurl: 'http://jmmachado.github.io/files/JEP_2025__12__101_0.pdf'
-citation: 'Antonin Chambolle; Vincent Duval; João Miguel Machado. One-dimensional approximation of measures in Wasserstein distance. Journal de l’École polytechnique — Mathématiques, Volume 12 (2025), pp. 101-145.'
+citation: 'Antonin Chambolle, Vincent Duval and João Miguel Machado.  &quot;<i>One-dimensional approximation of measures in Wasserstein distance.&quot; Journal de l’École polytechnique — Mathématiques, Volume 12 (2025), pp. 101-145</i>.'
 
 ---
 
