@@ -81,7 +81,7 @@ for row, item in publications.iterrows():
     
     md += "\ndate: " + str(item.pub_date) 
 
-    if item.venue:
+    if item.venue != '':
         md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     if len(str(item.paper_url)) > 5:
@@ -89,7 +89,7 @@ for row, item in publications.iterrows():
     
     md += "\ncitation: '" + html_escape(item.citation) + "'"
     
-    md += "\n---"
+    #md += "\n---"
     
     ## Markdown description for individual page
     
