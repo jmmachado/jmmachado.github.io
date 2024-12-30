@@ -56,6 +56,8 @@ publication_category:
     title: 'Journal Articles'  
   books:
     title: 'Books'
+  notes:
+    title: 'Notes'
   conferences:
     title: 'Conference Papers'
 
@@ -172,7 +174,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: false
@@ -211,7 +213,7 @@ defaults:
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: false
       comments: false
   # _publications
