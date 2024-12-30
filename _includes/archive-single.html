@@ -42,8 +42,6 @@
                {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
            </h4>
       {% endif %}
-    {% endif %}
-      
 
       {% if post.excerpt and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }} <a href="{{ post.paperurl }}">Download Paper</a> </p>
