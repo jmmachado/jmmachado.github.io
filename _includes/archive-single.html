@@ -28,12 +28,21 @@
 
     {% if post.collection == 'publications' %}
       <h3 class="archive__item-title" itemprop="headline"> {{ post.title }} </h3>
-      {% if post.date %}
-         <h4 class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></h4>
+      {% if post.date and post.category != 'preprint' %}
+           <h4 class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
+               {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> 
+               <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
+               {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+               in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+           </h4>
+      {% else %}
+          <h4 class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
+               {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> 
+               <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
+               {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+           </h4>
       {% endif %}
-      {% if post.category != 'preprint' %}
-            <h4 in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </h4>
-      {% endif %}
+    {% endif %}
       
 
       {% if post.excerpt and site.read_more != 'enabled' %}
