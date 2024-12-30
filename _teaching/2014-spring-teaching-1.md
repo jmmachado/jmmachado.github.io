@@ -1,7 +1,7 @@
 ---
 title: "Chargé de TD-TP"
 collection: teaching
-type: "L2-L2 Mathématiques"
+type: "L2-L3 Mathématiques"
 permalink: #/teaching/2014-spring-teaching-1
 venue: "Université Paris-Dauphine"
 date: 2023/2024
