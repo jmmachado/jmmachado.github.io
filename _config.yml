@@ -58,6 +58,8 @@ publication_category:
     title: 'Books'
   notes:
     title: 'Notes'
+  dissertations: 
+    titel: 'Dissertations'
   conferences:
     title: 'Conference Papers'
 
