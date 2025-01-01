@@ -30,7 +30,7 @@
       <h3 class="archive__item-title" itemprop="headline"> {{ post.title }} </h3>
       {% if post.category == 'dissertations' %}
         {{ post.excerpt | markdownify }}
-      {% elif post.date and post.category != 'preprint' %}
+      {% elsif post.date and post.category != 'preprint' %}
            <h4 class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 
                {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> 
                <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
