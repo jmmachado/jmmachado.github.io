@@ -1,7 +1,7 @@
 ---
 title: "One-dimensional approximation of measures in Wasserstein distance."
 collection: publications
-category: dissertations
+category: manuscripts
 permalink: /publication/one_dimensional
 excerpt: 'Joint work with Antonin Chambolle and Vincent Duval [Published version](https://jep.centre-mersenne.org/articles/10.5802/jep.286/) [HAL version](https://hal.science/hal-04082932)'
 date: 2024-12-17
