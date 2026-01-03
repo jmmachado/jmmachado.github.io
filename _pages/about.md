@@ -11,7 +11,7 @@ Hi! And welcome to my personal website! I am currently a post-doctoral research 
 
 My research is centered on the Calculus of Variations, with a particular focus on Optimal Transport and Geometric Measure Theory to understand geometric structures in variational problems. I am particularly interested in how measures can be approximated by lower dimensional objects, and in how notions of convexity and geometry emerge through transport based formulations.
 
-These ideas play a central role in my work on convergence and stability questions, including the analysis of equilibria for interacting systems and variational problems, as well as stability for functional inequalities and variational problems. 
+These ideas play a central role in my work on convergence and stability questions, including the analysis of equilibria for interacting systems, as well as stability for functional inequalities and variational problems. 
 
 You can find some of my recent publications in the [Publications](./publications/) section, feel free to reach out if you have any questions!
 
