@@ -12,7 +12,7 @@ O objetivo desse curso é desenvolver bem as bases da teoria de transporte ótim
 
 ## Lecture notes (in portuguese)
 
-- [Lecture 1: Monge/Kantorovitch](http://jmmachado.github.io/files/OT_EMAp_2026/cap1-MongeKantorovitch.pdf)
+- [Chapter 1: Monge/Kantorovitch](/files/OT_EMAp_2026/cap1-MongeKantorovitch.pdf)
 <!-- - [Lecture 2: Title](link or file) -->
 
 <!-- ## Exercise sheets
