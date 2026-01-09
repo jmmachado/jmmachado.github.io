@@ -7,5 +7,5 @@ Here you can find information and materials for the courses I teach or have taug
 
 ## Courses
 
-- **An introduction to Optimal Transport (in Portuguese)**, Institution, Year  
+- **An introduction to Optimal Transport (in Portuguese)**, EMAp (FGV), Jan 2026  
   [Course page](./optimal-transport-intro/)
