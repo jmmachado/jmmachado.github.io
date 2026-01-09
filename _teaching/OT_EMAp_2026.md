@@ -1,5 +1,5 @@
 ---
-title: Uma introdução à Teoria do Transporte Ótimo e suas aplicações
+title: An introduction to Optimal Transport (in Portuguese)
 permalink: /teaching/optimal-transport-intro/
 ---
 
@@ -8,7 +8,9 @@ permalink: /teaching/optimal-transport-intro/
 **Year:** 2026
 ## Course description
 
-## Lecture notes
+O objetivo desse curso é desenvolver bem as bases da teoria de transporte ótimo para uma audiência ampla, para que o estudante possa explorar mais a fundo qualquer direção ou aplicação de interesse. 
+
+## Lecture notes (in portuguese)
 
 - [Lecture 1: Monge/Kantorovitch]('http://jmmachado.github.io/files/shooting.pdf')
 <!-- - [Lecture 2: Title](link or file) -->
