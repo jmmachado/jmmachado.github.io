@@ -10,7 +10,7 @@ permalink: /teaching/optimal-transport-intro/
 
 O objetivo desse curso é desenvolver bem as bases da teoria de transporte ótimo para uma audiência ampla, para que o estudante possa explorar mais a fundo qualquer direção ou aplicação de interesse. 
 
-## Notas de aula (in portuguese)
+## Notas de aula
 
 - [Capítulo 1: Monge/Kantorovitch](/files/OT_EMAp_2026/cap1-MongeKantorovitch.pdf)
 - [Capítulo 2: Dualidade de Kantorovitch](/files/OT_EMAp_2026/cap2-Dualidade.pdf)
