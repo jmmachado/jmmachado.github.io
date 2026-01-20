@@ -15,6 +15,7 @@ O objetivo desse curso é desenvolver bem as bases da teoria de transporte ótim
 - [Capítulo 1: Monge/Kantorovitch](/files/OT_EMAp_2026/cap1-MongeKantorovitch.pdf)
 - [Capítulo 2: Dualidade de Kantorovitch](/files/OT_EMAp_2026/cap2-Dualidade.pdf)
 - [Capítulo 3: Teorema de Brenier](/files/OT_EMAp_2026/cap3-Brenier.pdf)
+- [Capítulo 4: Distâncias de Wasserstein](/files/OT_EMAp_2026/cap4-DistWasserstein.pdf)
 <!-- - [Lecture 2: Title](link or file) -->
 
 <!-- ## Exercise sheets
