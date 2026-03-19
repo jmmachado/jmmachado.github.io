@@ -39,3 +39,8 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.smaller-font {
+  font-size: 0.95em;  /* or 0.9em for smaller */
+  line-height: 1.4;   /* optional, improves readability */
+}
