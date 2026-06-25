@@ -33,7 +33,8 @@ arXiv:2511.22636.
 
 <li>
 <strong>Absence of loops for the Wasserstein-$\mathcal{H}^1$ problem: the concentration/blow-up argument</strong>.<br>
-2025. 
+<em>Advances in Calculus of Variations</em>, 2026. 
+<a href="https://www.degruyterbrill.com/document/doi/10.1515/acv-2025-0071/html">Journal</a>
 <a href="https://hal.science/view/index/docid/5064031">HAL</a> <a href="/files/main_trees.pdf">PDF</a>
 </li>
 
