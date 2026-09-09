@@ -14,6 +14,12 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 <ol reversed>
 
 <li>
+<strong>On the effective sharp stability of the Faber-Krahn inequality</strong>, joint work with André Guerra and João P. G. Ramos.<br>
+arXiv:2603.17726. 
+<a href="https://arxiv.org/abs/2609.07772">arXiv</a> <a href="/files/main_quanti_FK_torsion.pdf">PDF</a>
+</li>
+
+<li>
 <strong>Quantitative Stability for Minkowski's Problem</strong>, joint work with Károly Böröczky and João P. G. Ramos.<br>
 arXiv:2603.17726. 
 <a href="https://arxiv.org/abs/2603.17726">arXiv</a> <a href="/files/stability_Minkowski.pdf">PDF</a>
