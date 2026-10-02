@@ -1,0 +1,171 @@
+/* Styles scoped to the welcome page. */
+.welcome-page {
+  --welcome-accent: #246579;
+  --welcome-ink: #263f48;
+  --welcome-border: #d6e3e7;
+
+  margin-top: 1.5em;
+
+  a {
+    color: var(--welcome-accent);
+    text-underline-offset: 0.15em;
+
+    &:hover {
+      color: var(--welcome-ink);
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--welcome-accent);
+      outline-offset: 4px;
+    }
+  }
+
+  .welcome-intro {
+    padding: 1.5em;
+    border-left: 3px solid var(--welcome-accent);
+    border-radius: 0 6px 6px 0;
+    background: #f2f7f8;
+  }
+
+  .welcome-greeting {
+    margin-bottom: 0.65em;
+    color: var(--welcome-ink);
+    font-family: $serif;
+    font-size: 1.45em;
+    line-height: 1.3;
+  }
+
+  .welcome-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65em;
+    margin-top: 1.5em;
+  }
+
+  .welcome-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    min-height: 44px;
+    padding: 0.65em 0.95em;
+    border: 1px solid var(--welcome-border);
+    border-radius: 4px;
+    background: #fff;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+
+    &:hover {
+      border-color: var(--welcome-accent);
+      background: #e6f0f3;
+      text-decoration: none;
+    }
+  }
+
+  .welcome-link--primary {
+    border-color: var(--welcome-accent);
+    background: var(--welcome-accent);
+    color: #fff;
+
+    &:hover {
+      border-color: var(--welcome-ink);
+      background: var(--welcome-ink);
+      color: #fff;
+    }
+  }
+
+  .welcome-file-type {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  h2 {
+    margin-top: 1.8em;
+    color: var(--welcome-ink);
+    border-color: var(--welcome-border);
+  }
+
+  .welcome-landmark {
+    display: inline-block;
+    margin-left: 0.08em;
+    font-size: 0.78em;
+    line-height: 1;
+    vertical-align: 0.08em;
+  }
+
+  .welcome-landmark--rio {
+    transform: rotate(-5deg);
+  }
+
+  .welcome-landmark--paris {
+    transform: rotate(4deg);
+  }
+
+  .welcome-topics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1em;
+    margin: 1.5em 0 2em;
+  }
+
+  .welcome-topic {
+    min-width: 0;
+    padding-top: 1em;
+    border-top: 2px solid var(--welcome-accent);
+
+    h3 {
+      margin: 0 0 0.65em;
+      color: var(--welcome-ink);
+      font-size: 0.95em;
+      line-height: 1.4;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.85em;
+      line-height: 1.6;
+    }
+  }
+
+  .welcome-contact {
+    margin-top: 2em;
+    padding: 1.3em 1.5em;
+    border: 1px solid var(--welcome-border);
+    border-radius: 6px;
+
+    h2 {
+      margin-top: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    p {
+      margin-bottom: 0.75em;
+    }
+
+    a {
+      overflow-wrap: anywhere;
+    }
+  }
+
+  .welcome-contact-alternative {
+    font-size: 0.85em;
+  }
+
+  @media (max-width: 480px) {
+    .welcome-intro,
+    .welcome-contact {
+      padding: 1.15em;
+    }
+
+    .welcome-topics {
+      grid-template-columns: 1fr;
+    }
+
+    .welcome-link--primary {
+      width: 100%;
+    }
+  }
+}
