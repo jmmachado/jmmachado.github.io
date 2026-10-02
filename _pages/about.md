@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Understanding the geometry of optimization"
+title: ""
 excerpt: "João Miguel Machado — postdoctoral researcher at ENSAE/CREST, working on optimal transport, geometric measure theory, and quantitative stability."
 author_profile: true
 redirect_from: 
