@@ -10,3 +10,7 @@ group :jekyll_plugins do
 end
 
 gem 'github-pages'
+
+# Ruby 3.4+ no longer bundles these standard libraries, but Jekyll 3 uses them.
+gem 'csv'
+gem 'bigdecimal'

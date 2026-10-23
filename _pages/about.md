@@ -26,6 +26,10 @@ I work on the **calculus of variations**, with an emphasis on **optimal transpor
 
 </div>
 
+## News
+
+**October 2026.** Our advanced course with João P. G. Ramos on *"Transport methods for quantitative geometric inequalities"*, has been accepted for the [36th Brazilian Colloquium of Mathematics](https://impa.br/evento/36th-brazilian-colloquium-of-mathematics-cbm/?lang=en). It will take place at IMPA, 26–30 July 2027. We will soon prepare some notes. [Read the course abstract](https://drive.google.com/file/d/1TGhPOPJ4Cv-KvsA5WWdBLZrrP3HZ-KkY/view?usp=drive_link).
+
 ## Research: understanding the landscape
 
 Understanding an optimization problem starts with understanding its landscape. In Euclidean spaces, derivatives often reveal this geometry. In infinite-dimensional spaces, functional and geometric inequalities can play a similar role. I like to study the rigidity and quantitative stability encoded by these inequalities, and how they help us understand variational problems and their numerical schemes. 
