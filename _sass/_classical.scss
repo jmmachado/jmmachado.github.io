@@ -296,46 +296,66 @@ blockquote {
 }
 
 /* Publication entries read like a compact bibliography. */
-.smaller-font > ol {
-  padding-left: 2.15em;
+.publication-list {
+  margin-top: 1em;
+  padding-left: 1.9em;
 }
 
-.smaller-font > ol > li {
-  margin-bottom: 1.15em;
-  padding: 0 0 1.15em 0.3em;
+.publication-list > li {
+  margin-bottom: 0.5em;
+  padding: 0 0 0.52em 0.18em;
   border-bottom: 1px solid var(--rule);
+  line-height: 1.45;
 }
 
-.smaller-font > ol > li::marker {
+.publication-list > li::marker {
   color: var(--brass);
   font-family: "EB Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  font-size: 1.08em;
+  font-size: 1.02em;
   font-weight: 600;
 }
 
-.smaller-font > ol > li strong {
+.publication-list > li strong {
   color: var(--ink-strong);
   font-family: "EB Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  font-size: 1.13em;
+  font-size: 1.07em;
   font-weight: 600;
-  line-height: 1.28;
+  line-height: inherit;
 }
 
-.smaller-font > ol > li a {
-  display: inline-block;
-  margin: 0.3em 0.08em 0;
-  padding: 0.05em 0.42em;
-  border: 1px solid var(--rule-strong);
-  border-radius: 2px;
-  background: rgba(251, 250, 246, 0.6);
-  font-size: 0.82em;
+.publication-authors {
+  color: var(--ink-muted);
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.91em;
+}
+
+.publication-venue {
+  color: var(--ink-muted);
+  font-family: "EB Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 0.98em;
+  font-style: italic;
+}
+
+.publication-links {
+  white-space: nowrap;
+}
+
+.publication-list > li a {
+  display: inline;
+  margin: 0 0.06em;
+  padding: 0 0.16em 0.02em;
+  border-bottom: 1px solid var(--rule-strong);
+  background: transparent;
+  font-size: 0.78em;
   font-weight: 600;
+  letter-spacing: 0.035em;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-.smaller-font > ol > li a:hover {
-  border-color: var(--chalk-green);
-  background: var(--chalk-wash);
+.publication-list > li a:hover {
+  border-color: var(--brass);
+  background: transparent;
 }
 
 /* Archive lists, tables and footer share the paper-and-rule language. */
